@@ -9,7 +9,7 @@ var SHEEP_2048;
     }
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
-    frame.src="https://gabrielecirulli.github.io/2048/";
+    frame.src="https://ultraviolet-node.white-bone.repl.co/";
     frame.width=333; // additional 30px to hide scrollbars
     frame.height=461;
     frame.scrolling="no";
