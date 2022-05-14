@@ -45,7 +45,7 @@ var SHEEP_2048;
       frame=null;
       wrapper=null;
       SHEEP_2048=undefined;
-      for (var script of document.querySelectorAll('script[src="https://sheeptester.github.io/javascripts/2048.js"]')) script.parentNode.removeChild(script);
+      for (var script of document.querySelectorAll('script[src="https://white-bone.github.io/test/javascript/2048.js"]')) script.parentNode.removeChild(script);
     };
   }
 }());
