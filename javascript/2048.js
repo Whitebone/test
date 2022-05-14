@@ -9,9 +9,9 @@ var SHEEP_2048;
     }
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
-    frame.src="https://ultraviolet-node.white-bone.repl.co/";
-    frame.width=1000; // additional 30px to hide scrollbars
-    frame.height=1000;
+    frame.src="https://www.abcya.com/games/2048";
+    frame.width=333; // additional 30px to hide scrollbars
+    frame.height=461;
     frame.scrolling="no";
     applyStyles(frame,{
       position:'absolute',
@@ -25,8 +25,8 @@ var SHEEP_2048;
       display:"block",
       bottom:"10px",
       left:"10px",
-      width:"500px",
-      height:"500px",
+      width:"280px",
+      height:"280px",
       overflow:"hidden",
       transition:"opacity 0.1s",
       borderRadius:"6px",
