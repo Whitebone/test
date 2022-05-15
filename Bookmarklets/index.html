@@ -1,6 +1,6 @@
 <BODY>
-  <a href="javascript: if (typeof all === 'undefined') {let all = [];} all = document.getElementsByTagName('*'); for (let i = 0; i < all.length; i++) { if(typeof all[i].style !== 'undefined'){all[i].style.fontFamily = "Comic Sans MS";}} document.getElementsByTagName("html")[0].style.filter = "invert()"; if (typeof elems === 'undefined') {let elems = [];} elems = document.querySelectorAll(" a, img, video"); for (let j = 0 ; j < elems.length; j++) { if((elems[j].nodeName == "A" && (elems[j].style.background != "" || elems[j].style.backgroundImage != "")) || elems[j].nodeName != "A"){elems[j].style.filter = "invert()";} } void 0; "> Darkmode </a> ALMOST all of this code is from ZeSardine
-
+  <a href="javascript:(function(){function invert(o,t){var r=o.split("("),n=r[1].split(")")[0].split(",");return n.forEach(function(o,r){r<3&&(n[r]="color"==t&&255-parseInt(o)<50?120:255-parseInt(o))}),n=n.join(","),r[0]+"("+n+")"}document.querySelectorAll("*:not([invTouch])").forEach(function(o){var t=window.getComputedStyle(o);o.style.backgroundColor=invert(t.backgroundColor,"back"),o.style.color=invert(t.color,"color"),o.setAttribute("invTouch","true")});})();"> Darkmode </a>  Notepad code is from ZeSardine
+Darkmode code is by sanketmehta7
 <html>
 <head> <title>My text editor</title>
 <style>
