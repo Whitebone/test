@@ -198,7 +198,7 @@ document.onmousemove = handlerMM;
     <div class="container">
     <header>
       <div>
-        <h2><p>put text here</p></h2>
+        <h2><p>Bone's site</p></h2>
         </span>
       </div>
     </header>
@@ -226,33 +226,7 @@ document.onmousemove = handlerMM;
                   <link rel="stylesheet" type="text/css" href="../style2.css">
               </head>
               
-              <body>
-                  <div class="header">
-                  </div>
-                  <hr>
-                  <div class="search-container">
-                      <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for stuff" title="Type in stuff to search">
-                      <script>
-                          function gameFinder() {
-                              var input, filter, ul, li, a, i, txtValue;
-                              input = document.getElementById("gameFinder");
-                              filter = input.value.toUpperCase();
-                              ul = document.getElementById("Games");
-                              li = ul.getElementsByTagName("li");
-                              for (i = 0; i < li.length; i++) {
-                                  a = li[i].getElementsByTagName("a")[0];
-                                  txtValue = a.textContent || a.innerText;
-                                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                                      li[i].style.display = "";
-                                  } else {
-                                      li[i].style.display = "none";
-                                  }
-                              }
-                          }
-                      </script>
-                  </div>
-                  <hr>
-                  
+            
                   <div class="stuff" id="stuff">
                       </ul>
                     
