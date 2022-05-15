@@ -1,12 +1,8 @@
-<body bgcolor=”#800000">
- 
-
-
-   body {
-
-
-  color: white;
-
-
+body {
+  background-color: darkgrey;
 }
 
+h1 {
+  color: white;
+  margin-left: 20px;
+}
