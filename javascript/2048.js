@@ -11,8 +11,8 @@ var SHEEP_2048;
     frame=document.createElement("iframe");
     frame.src="https://white-bone.github.io/test/javascript/Notepad/index.html";
     frame.width=333; // additional 30px to hide scrollbars
-    frame.height=461;
-    frame.scrolling="yes";
+    frame.height=720;
+    frame.scrolling="no";
     applyStyles(frame,{
       position:'absolute',
       top:'-151.5px',
