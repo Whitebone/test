@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial';
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    padding: 0;
+    min-height: 100%;
+  
+    margin-top: 0px;
+    margin-bottom: -70px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  img {
+    width:50%;
+    height: auto;
+  }
+  
+  
+  
+  header {
+    background-color: red;
+    /* don't forget about hexcolors*/
+  }
+  
+  header div {
+    width: 80%;
+  
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-right: 0;
+  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .main-logo {
+    color: black;
+    background-color: white;
+  
+    font-family: 'arial black', arial, helvetica, sans-serif;
+  
+    font-size: 6vh;
+  
+    margin-left: 5%;
+    text-decoration: none;
+    position: relative;
+  
+  
+  
+  }
+  
+  .page-title {
+  font-family: 'Cambria', times, serif;
+  font-size: 5vh;
+  padding-left: 1%;
+  position: relative;
+  
+  }
+  
+  
+  
+
+  nav {
+    left: 25px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  nav a {
+    color: black;
+    font-family: 'arial black', arial, sans-serif;
+    padding: 0.5vh;
+    text-decoration: none;
+  
+    background-color: black;
+  }
+  
+  .nav-home {background-color: white;}
+  
+  .nav-my-games {background-color: white;}
+
+  .e {padding: 0vh;}
+  
+  
+  .nav-home:hover {background-color: white; color: black;}
+
+  .nav-my-games:hover {background-color: white; color: black;}
+  
+  nav a {
+    transition: background-color 0.5s ease;
+  }
+  
+  .content{
+    background-color: rgba(232, 233, 235, 0.8);
+  
+      margin: auto;
+      min-height: 700px;
+      padding: 50px;
+      width: 80%;
+  }
+  
+  footer {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+  }
+  
+  footer div {
+    position: absolute;
+    right: 0;
+    width: 112px;
+    z-index: 1;
+  }
+  
+  a {
+    padding-left: 50px;
+  }
+  
+  
+  footer div a {
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 101%;
+    width: 50px;
+  }
+  
