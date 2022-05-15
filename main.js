@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="utf-8">
-		<title>SAPUI5 Walkthrough</title>
+		<title>cool stuff</title>
 		<script
 			id="sap-ui-bootstrap"
 			src="/resources/sap-ui-core.js"
