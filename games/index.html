@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>n1swordslasher</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="style2.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="media-queries.css">
+    <meta name="viewport" content="width=device-width">
+
+  </head>
+
+  <body>
+    <div class="container">
+    <header>
+      <div>
+        <h2><p>put text here</p></h2>
+        </span>
+      </div>
+    </header>
+
+
+<section>
+
+  <nav>
+
+
+  </nav>
+
+
+            <div class="content">
+              <!DOCTYPE html>
+              <html lang="en">
+              
+              <head>
+                  <title>your title</title>
+                  <meta charset='utf-8'>
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+                  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                  <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+                  <link rel="stylesheet" type="text/css" href="../style2.css">
+              </head>
+              
+              <body>
+                  <div class="header">
+                  </div>
+                  <hr>
+                  <div class="search-container">
+                      <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for games" title="Type in a game">
+                      <script>
+                          function gameFinder() {
+                              var input, filter, ul, li, a, i, txtValue;
+                              input = document.getElementById("gameFinder");
+                              filter = input.value.toUpperCase();
+                              ul = document.getElementById("Games");
+                              li = ul.getElementsByTagName("li");
+                              for (i = 0; i < li.length; i++) {
+                                  a = li[i].getElementsByTagName("a")[0];
+                                  txtValue = a.textContent || a.innerText;
+                                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                      li[i].style.display = "";
+                                  } else {
+                                      li[i].style.display = "none";
+                                  }
+                              }
+                          }
+                      </script>
+                  </div>
+                  <hr>
+                  
+                  <div class="Games" id="Games">
+                      </ul>
+                    
+                        <h3>Games</h3>
+                        <ul>
+                          <li><a href="../games/example/index.html">EXAMPLE</a></li>
+                          <li><a href="../games/20488/index.html">EXAMPLE</a></li>
+                        </ul>
+                  </div>
+                  <hr>
+                  
+                  </script>
+              </body>
+              
+              </html>
+          </div>
+        </section>
+
+    </div>
+  </body>
+
+
+</html>
